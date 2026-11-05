@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <style>
+        body { text-align: center; font-family: Arial; }
+        img { width: 300px; border-radius: 12px; }
+    </style>
+</head>
+<body>
+    <h1>My Website</h1>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a>
+    </nav>
+    <h2 id="home">Beautiful Nature</h2>
+    <img src="https://picsum.photos/600/400" alt="Random nature photograph">
+    <p>Welcome to my beautiful website!</p>
+    <h2 id="about">About</h2>
+    <p>This is my HTML project.</p>
+</body>
+</html>
