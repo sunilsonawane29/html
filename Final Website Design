@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Final Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            text-align: center;
+        }
+        header {
+            background: #1d4ed8;
+            color: white;
+            padding: 25px;
+        }
+        nav {
+            background: #1e293b;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+        main {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+        }
+        button {
+            padding: 12px 25px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        footer {
+            padding: 20px;
+            background: #1e293b;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Final Website</h1>
+        <p>Learning HTML and CSS</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome!</h2>
+            <p>This is my first complete website project.</p>
+            <button onclick="alert('Thank you for visiting!')">
+                Click Here
+            </button>
+        </section>
+
+        <section id="about">
+            <h2>About My Website</h2>
+            <p>This project demonstrates HTML, CSS and basic JavaScript.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: example@email.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
